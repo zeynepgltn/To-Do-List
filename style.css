@@ -1,0 +1,56 @@
+/* Genel Arka Plan Rengi */
+body {
+    background-color: #f3e5ff;
+    color: #d767d7;
+}
+
+/* Başlık Rengi */
+.app-title {
+    color: #6a0572;
+}
+
+/* Görev Listesi Arkaplan ve Yazı Renkleri */
+.list-group-item:nth-child(1),
+.list-group-item:nth-child(2),
+.list-group-item:nth-child(3) {
+    background-color: pink !important;
+    color: #d767d7;
+}
+
+.list-group-item:nth-child(4) {
+    background-color: #d8b3ff !important;
+    color: #6a0572;
+}
+
+/* Kart Başlıkları */
+.card-header {
+    background-color: #caa8ff;
+    color: #b23fb2;
+}
+
+.btn-danger {
+    background-color: #ff66b2;
+    /* Canlı pembe */
+    border-color: #ff66b2;
+    color: white;
+}
+
+.btn-outline-primary {
+    color: #6a0572;
+    border-color: #6a0572;
+}
+
+.btn-outline-primary:hover {
+    background-color: #6a0572;
+    color: white;
+}
+
+/* Silme ikonları */
+.delete-item i {
+    color: #ff66b2;
+}
+
+/* Yeni Görev Ekleme Alanı */
+.new-task {
+    background-color: pink !important;
+}
